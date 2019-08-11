@@ -27,6 +27,8 @@ end
         student_has[:twitter_url] = url if url.include?("twitter")
         
        students_hash[:linkedin_url] = url if url.include?("linkedin")
+       students_hash[:github_url] = url if url.include?("github")
+       
     
   end
 
