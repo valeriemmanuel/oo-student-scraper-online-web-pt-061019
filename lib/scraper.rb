@@ -26,7 +26,7 @@ end
         url = student.attribute("href")
         student_has[:twitter_url] = url if url.include?("twitter")
         
-        student_hash[:linkedin_url] =
+       students_hash[:linkedin_url] = url if url.include?("linkedin")
     
   end
 
