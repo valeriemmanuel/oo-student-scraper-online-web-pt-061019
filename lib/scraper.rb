@@ -24,6 +24,9 @@ end
     html.css("div.social-icon-controller a").each do |student|
       
         url = student.attribute("href")
+        student_has[:twitter_url] = url if url.include?("twitter")
+        
+        student_hash[:linkedin_url] =
     
   end
 
