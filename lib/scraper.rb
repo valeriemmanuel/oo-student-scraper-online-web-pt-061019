@@ -31,6 +31,8 @@ end
        students_hash[:blog_url] = url if student.css("img").attribute("src").text.include?("rss")
     end
     
+    
+    
   end
 
 end
