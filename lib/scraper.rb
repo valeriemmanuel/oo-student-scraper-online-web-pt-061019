@@ -9,7 +9,7 @@ class Scraper
     html.css(".student-card").collect do |student|
         hash = { name: studnet.css("h4.student-name").text, 
         location: student.css("p.student-location").text,
-        profile_url: "http://students.learn.co/" + student.csss("a").attritube("href)"}
+        profile_url: {("http://students.learn.co/") + student.csss("a").attritube("href)"}
         
         student_hash << hash
   end
